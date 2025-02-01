@@ -95,16 +95,10 @@
             }
         }
         .bg-l{
-            background:linear-gradient(145deg, rgb(255, 234, 0)-15%, rgba(255, 255, 255, 0)100%), url('/c2-assets/vegetable-offer.png');
-            background-repeat: no-repeat
-            
-        }
-        .bg-custom{
-            background-image:;
+            background:linear-gradient(145deg, rgb(226, 207, 1)-15%, rgba(255, 255, 255, 0)100%), url('/c2-assets/vegetable-offer.png');
             background-repeat: no-repeat;
-            
-            max-width: 420px;
-            padding: 48px;
+            background-position: bottom right;
+            border-radius: 16px;
         }
     </style>
 
@@ -225,19 +219,17 @@
 
 
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 mx-auto ">
 
                     <!-- offer -->
-                    <div class="md:col-span-1 bg-l">
-                        <div class="bg-custom">
-                            <h2 class="text-2xl font-bold mb-7  text-white">30% off</h2>
+                    <div class="md:col-span-1 mx-auto m-3  p-10  pl-12 pr-20 bg-l">
+                            <h2 class="text-2xl font-bold pt-12 mb-7  text-white">30% off</h2>
                             <p class="mb-6">Discover a world of treats, toys, and<br>  essentials handpicked for</p>
-                            <button class="bg-white px-4 py-2 text-xl font-medium rounded-lg">Buy Now</button>
-                        </div>
+                            <button class="bg-white px-4 py-2 md:mb-40 sm:mb-10 text-xl font-medium rounded-lg">Buy Now</button>
                     </div>
 
                     <!-- popular  -->
-                    <div class="grid md:col-span-2  grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 mx-auto px-4">
+                    <div class="grid md:col-span-2  grid-cols-2 xl:grid-cols-3 gap-2 md:gap-4 mx-auto px-4">
                         <div class="bg-white w- p-2 md:p-4 rounded-xl flex items-center">
                             <img class="bg-slate-200 rounded-md md:w-20 md:h-20" src="c2-assets/potato.png" alt="">
                             <div class="md:px-4 px-2">
@@ -326,7 +318,7 @@
                                 <h4 class=" md:text-base text-xs text- font-medium">$39.99</h4>
                             </div>
                         </div>
-                        <div class="bg-white hidden md:flex p-2 md:p-4 rounded-xl flex items-center">
+                        <div class="bg-white hidden xl:flex p-2 md:p-4 rounded-xl flex items-center">
                             <img class="bg-slate-200 rounded-md md:w-20 md:h-20" src="c2-assets/tomato.png" alt="">
                             <div class="md:px-4 px-2">
                                 <div class="flex items-center">
@@ -343,7 +335,7 @@
 
         </section>
     </main>
-    <footer>
+    <footer class="mt-60">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="md:col-span-2 bg-gray-200 p-4">66% Width</div>
             <div class="md:col-span-1 bg-gray-300 p-4">33% Width</div>
